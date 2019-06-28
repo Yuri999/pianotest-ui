@@ -1,0 +1,28 @@
+.search-results {
+  padding: 1rem;
+}
+
+.search-results .question {
+  padding: 0.5rem;
+  color: black;
+}
+
+.search-results .header {
+  background-color: lightslategrey;
+  padding: 0.5rem;
+}
+
+.answered {
+  background-color: #9be79d;
+}
+
+.unanswered {
+  background-color: antiquewhite;
+}
+
+.square-small {
+  width: 14px;
+  height: 14px;
+  display: inline-block;
+  border: 1px solid darkgray;
+}
