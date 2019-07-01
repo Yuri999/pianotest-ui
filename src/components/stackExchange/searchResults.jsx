@@ -45,7 +45,7 @@ const SearchResults = ({ items, total, page, pageSize, onPageChange }) => {
           })}
         >
           <div className="col">
-            <a href={x.link}>{x.title}</a>
+            <a href={x.link} dangerouslySetInnerHTML={{ __html: x.title }} />
           </div>
           <div className="col-2">
             {new Date(x.creation_date).toLocaleDateString()}
